@@ -1,0 +1,11 @@
+task build(type: Exec) {
+    commandLine 'zip', '-9', '-q', '-r', 'wizardstower.love', '.', '-i', '*.lua', '*.png', '*.wav', '*.md'
+}
+
+task clean(type: Delete) {
+    delete 'wizardstower.love'
+}
+
+task run(type: Exec) {
+    commandLine 'love', '.'
+}
