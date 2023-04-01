@@ -11,7 +11,7 @@ games.create = function()
     game.map = maps.create(maps.prototypes[game.id])
     game.rogue = entities.create(entities.prototypes.rogue, 5, 16)
 
-    game.music = love.audio.newSource("res/music.wav")
+    game.music = love.audio.newSource("res/music.wav", 'static')
     game.music:setVolume(0.25)
     game.music:setLooping(true)
     game.music:play()

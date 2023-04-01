@@ -1,7 +1,7 @@
 # Wizard's Tower #
 
 ### Version ###
-1.1
+1.2
 
 ### Dependencies ###
 [LÖVE](https://love2d.org/)
